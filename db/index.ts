@@ -1,14 +1,67 @@
 import type { PostgresJsDatabase } from "drizzle-orm/postgres-js";
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
-import { accounts, sessions, users, verifications } from "./schema";
+import {
+  accountRelations,
+  accounts,
+  campaignGroupRelations,
+  campaignGroups,
+  campaignRelations,
+  campaignStatusEnum,
+  campaigns,
+  eventRelations,
+  events,
+  eventTypeEnum,
+  groupRelations,
+  groups,
+  landingPageRelations,
+  landingPages,
+  resultRelations,
+  resultStatusEnum,
+  results,
+  sendingProfileRelations,
+  sendingProfiles,
+  sessionRelations,
+  sessions,
+  targetRelations,
+  targets,
+  templateRelations,
+  templates,
+  userRelations,
+  users,
+  verifications,
+} from "./schema";
 
-// Construct schema object for drizzle
+// Construct schema object for drizzle with all tables and relations
 const schema = {
+  campaignStatusEnum,
+  resultStatusEnum,
+  eventTypeEnum,
   users,
   sessions,
   accounts,
   verifications,
+  sendingProfiles,
+  templates,
+  landingPages,
+  groups,
+  targets,
+  campaigns,
+  campaignGroups,
+  results,
+  events,
+  userRelations,
+  sessionRelations,
+  accountRelations,
+  sendingProfileRelations,
+  templateRelations,
+  landingPageRelations,
+  groupRelations,
+  targetRelations,
+  campaignRelations,
+  campaignGroupRelations,
+  resultRelations,
+  eventRelations,
 };
 
 const connectionString =

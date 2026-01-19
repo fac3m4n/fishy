@@ -8,6 +8,13 @@
       "when": 1768821668062,
       "tag": "0000_flawless_vindicator",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1768825134238,
+      "tag": "0001_late_shockwave",
+      "breakpoints": true
     }
   ]
 }
