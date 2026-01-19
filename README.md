@@ -13,6 +13,9 @@
 
 </div>
 
+<img width="1656" height="963" alt="Screenshot 2026-01-19 at 22 45 18" src="https://github.com/user-attachments/assets/a2e74d6c-3dec-48a3-9f33-ac3f0f8d87fe" />
+
+
 ## 🎯 Overview
 
 Fishy is a comprehensive Security Operations Center (SOC) platform designed to help organizations test and improve their security posture through controlled phishing simulations. The platform enables security teams to create, manage, and analyze phishing campaigns while providing detailed analytics on employee awareness and vulnerability.
